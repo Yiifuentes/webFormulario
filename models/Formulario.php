@@ -42,10 +42,10 @@ class Formulario extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'nombre' => 'Nombre',
-            'correo' => 'Correo',
-            'telefono' => 'Telefono',
-            'mensaje' => 'Mensaje',
+            'nombre completo' => 'Nombre',
+            'correos' => 'Correo',
+            'telefonos' => 'Telefono',
+            'mensajes' => 'Mensaje',
             'id' => 'ID',
         ];
     }
