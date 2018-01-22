@@ -31,9 +31,9 @@ use yii\widgets\ActiveForm;
 //                    'inputOptions' => ['autofocus' => 'autofocus', 'class' => 'form-control transparent']
 //            ])->textInput(['placeholder' => "Enter Your Email"])->input('email')->label(false); ?>
 
-            <?= $form->field($model, 'telefono')->textInput(['class'=>'None3','placeholder' => "Tu telefono"])->label(false) ?>
+            <?= $form->field($model, 'telefono')->textInput(['class'=>'None3','placeholder' => "telefono"])->label(false) ?>
 
-            <?= $form->field($model, 'mensaje')->textInput(['class'=>'None4','placeholder'=>"Tu mensaje",'maxlength' => true])->label(false) ?>
+            <?= $form->field($model, 'mensaje')->textInput(['class'=>'None4','placeholder'=>"mensaje",'maxlength' => true])->label(false) ?>
 
             <!--    --><?//= $form->field($model, 'id')->textInput() ?>
 
